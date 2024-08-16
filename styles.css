@@ -1,0 +1,122 @@
+/*---welcome page---*/
+
+body {
+  background-color: hsl(350, 95%, 92%);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  color: gray;
+}
+
+h1 {
+  text-align: center;
+  height: 150px;
+  filter: drop-shadow(2px 2px 1px grey);
+}
+
+.img-welcome {
+  border-color: black;
+  border-radius: 0.5rem;
+  border-style: double;
+  display: flex;
+  justify-content: space-between;
+}
+
+.div-options {
+  text-align: left;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 20vw;
+  padding: 15px;
+}
+
+#main-goal {
+  font-size: larger;
+  text-align: center;
+  text-decoration: underline;
+  font-weight: bold;
+  color: gray;
+}
+
+/*---dogs page---*/
+h2 {
+  text-align: center;
+  background-color: pink;
+  margin: 2rem auto 2rem auto;
+}
+
+.div-dogs {
+  display: flex;
+  justify-content: space-between;
+  margin: 4rem auto 3rem auto;
+}
+#adults-puppies {
+  border-color: black;
+  border-radius: 0.5rem;
+  border-style: double;
+}
+
+#yellow-white {
+  border-color: black;
+  border-radius: 0.5rem;
+  border-style: double;
+}
+
+#girl-dog {
+  border-color: black;
+  border-radius: 0.5rem;
+  border-style: double;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  padding: 7px;
+  text-align: center;
+  border-bottom: 2px solid rgba(128, 128, 128, 0.968);
+}
+
+tr:nth-child(even) {
+  background-color: rgb(250, 224, 228);
+}
+
+tr:hover {
+  background-color: gray;
+}
+
+h3 {
+  text-align: center;
+  margin: 3rem auto 3rem auto;
+}
+/*---cats page---*/
+.div-cats {
+  display: flex;
+  justify-content: space-between;
+  margin: 4rem auto 3rem auto;
+}
+
+#white-cats {
+  border-color: black;
+  border-radius: 0.5rem;
+  border-style: double;
+}
+#black-white {
+  border-color: black;
+  border-radius: 0.5rem;
+  border-style: double;
+}
+#gray-cats {
+  border-color: black;
+  border-radius: 0.5rem;
+  border-style: double;
+}
